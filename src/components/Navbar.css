@@ -1,0 +1,11 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0beb86;
+    height: 50px;
+    font-size: 30px;
+    }
+    span{
+    color: black;
+      margin: 20px;
+    }
