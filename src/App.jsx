@@ -14,7 +14,6 @@ function App() {
     document.body.style.backgroundColor = dark ? "white" : "black";
     document.body.style.color = dark ? "black" : "green";
   };
-
   return (
     <div className={dark ? "dark-mode" : "light-mode"}>
       <Navbar dark={dark} toggleDarkMode={toggleDarkMode} searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
